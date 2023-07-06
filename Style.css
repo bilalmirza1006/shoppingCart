@@ -139,53 +139,33 @@ button:hover {
   background-color: #333;
 }
 
-/* .box {
+.cart-item{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid goldenrod;
-  border-radius: 5px;
-  padding: 15px;
-  margin-bottom: 20px; 
+  padding: 10px;
+  background-color: white;
+  border-bottom:1px solid #aaa ;
+  border-radius: 3px;
+  margin: 10px 10px;
 }
-
-.box .img-box {
-  width: 100%;
-  height: 180px;
+.row-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid goldenrod;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
 }
 
-.box .image {
-  max-width: 100%;
-  height: auto;
+.rowimg{
+  max-width: 43px;
+  max-height: 43px;
+  border-radius: 50%;
 }
-
-.box .bottom {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.box .bottom p {
-  font-size: 16px;
-  margin-bottom: 5px;
-}
-
-.box .bottom h2 {
-  font-size: 20px;
-  color: red;
-}
-
-.box button {
-  width: 100%;
-  position: relative;
-  border: none;
-  border-radius: 5px;
-  background-color: goldenrod;
-  padding: 7px 25px;
+.fa-trash:hover{
   cursor: pointer;
-  color: white;
-} */
+  color: #333;
+}
+
