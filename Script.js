@@ -47,7 +47,6 @@ const product = [
 
     },
 ]
-// const categories = product.map((item) => item.title)
 
 let i = 0
 document.getElementById('root').innerHTML = product.map((item) => {
@@ -67,17 +66,6 @@ document.getElementById('root').innerHTML = product.map((item) => {
     )
 }).join('')
 
-// var cart = []
-
-// function addtocart(a) {
-//     cart.push({ ...product[a] })
-//     displaycart()
-// }
-// function delElement(a) {
-//     cart.splice(a, 1)
-//     displaycart()
-
-// }
 
 
 var cart = []
@@ -153,38 +141,3 @@ const applyFilters = () => {
 
 
 
-// const applyFilters = () => {
-//     const minPrice = parseFloat(document.getElementById("minPrice").value) || 0
-//     const maxPrice = parseFloat(document.getElementById("maxPrice").value) || Number.MAX_VALUE
-//     const minRating = parseFloat(document.getElementById("rattingInput").value) || 0
-//     const searchValue = document.getElementById("searchInput").value.toLowerCase()
-
-//     const itemList = document.getElementById("root")
-
-//     const filteredProducts = product.filter(item => {
-//         const meetsPriceFilter = item.price >= minPrice && item.price <= maxPrice
-//         const meetsRatingFilter = item.ratingStar >= minRating
-//         const meetsSearchFilter = item.title.toLowerCase().includes(searchValue)
-
-//         return meetsPriceFilter && meetsRatingFilter && meetsSearchFilter
-//     })
-
-//     itemList.innerHTML = ''
-
-//     itemList.innerHTML = filteredProducts.map(item => {
-//         const { image, title, price, ratingStar } = item
-//         return `
-//         <div class='box'>
-//             <div class ='img-box'>
-//                 <img class ='image' src='${image}'></img>
-//             </div>
-//             <div class='bottom'>
-//                 <p>${title}</p>
-//                 <h2>$ ${price}.00</h2>
-//                 <h2>Rating ${ratingStar}</h2>
-//                 <button onclick='addtocart(${item.id})'>Add to cart</button>
-//             </div>
-//         </div>
-//     `
-//     }).join('')
-// }

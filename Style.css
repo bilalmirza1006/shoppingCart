@@ -145,7 +145,6 @@ h2 {
   width: 100%;
   position: relative;
   border: none;
-  /* border-bottom-right-radius: 5px; */
   border-radius: 5px;
   background-color: goldenrod;
   padding: 7px 25px;
@@ -206,21 +205,16 @@ button:hover {
 }
 
 .mainfilter {
-  /* width: 100%; */
-  /* background-color: red; */
   display: flex;
   align-items: 'center';
   justify-content: center;
 
 
-  /* justify-content: "center"; */
-  /* flex-direction: row; */
   margin: 20px;
 }
 
 .filter {
   width: 100%;
-  /* background-color: red; */
   display: flex;
   align-items: 'center';
   justify-content: center;
