@@ -1,42 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <!-- Meta tags, title, and other necessary head elements -->
-  <script src="https://kit.fontawesome.com/977718d2ce.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="Style.css" />
-</head>
-
-<body>
-  <div class="header">
-    <p class="logo">Logo</p>
+<div class="sidebar">
+  <div class="head">
+    <p>My cart</p>
   </div>
-  <div class="container">
-    <div class="sidebar">
-      <div class="head">
-        <p>My cart</p>
-      </div>
-      <div id="cartItem">Your cart is empty</div>
-      <div class="foot">
-        <h3>Total</h3>
-        <h2 id="total">$ 0.00</h2>
-      </div>
-    </div>
+  <div id="cartItem">Your cart is empty</div>
+  <div class="foot">
+    <h3>Total</h3>
+    <h2 id="total">$ 0.00</h2>
   </div>
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const storedCart = localStorage.getItem('cart');
-      if (storedCart) {
-        cart = JSON.parse(storedCart);
-        displaycart();
-      }
-    });
-  </script>
-
-
-  <script src="Script.js"></script>
-</body>
-
-</html>
-////////////////
+</div>
